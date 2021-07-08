@@ -1,0 +1,33 @@
+{
+  "name": "indexed-mongo",
+  "version": "1.0.3-alfa",
+  "description": "",
+  "main": "dist/",
+  "scripts": {
+    "build": "webpack --display-error-details",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/jest": "^23.3.5",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.1.2",
+    "commander": "^2.17.1",
+    "dotenv": "^6.0.0",
+    "expect-puppeteer": "^3.4.0",
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "jest-puppeteer": "^3.4.0",
+    "mocha": "^5.2.0",
+    "puppeteer": "^1.9.0",
+    "ts-jest": "^23.10.4",
+    "ts-loader": "^4.5.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
